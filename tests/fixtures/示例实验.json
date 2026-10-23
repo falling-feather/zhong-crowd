@@ -1,0 +1,3028 @@
+{
+  "format": "zhong-experiment",
+  "schema": 1,
+  "model": "zhong-disc-1",
+  "seed": 4261,
+  "position": {
+    "x": 11.9,
+    "y": 8.8
+  },
+  "selectedAgent": 7,
+  "time": 0.1,
+  "hasRun": true,
+  "inspected": true,
+  "report": {
+    "format": "zhong-report",
+    "model": "zhong-disc-1",
+    "statement": "给定圆盘运动、信息与路径规则下的交互实验；未做真实人群校准。到达出口门槛计为通过，停滞不等同真实排队。",
+    "initial": {
+      "seed": 4261,
+      "scene": {
+        "id": "hidden-exit-1",
+        "width": 28,
+        "height": 18,
+        "exits": {
+          "A": {
+            "x": 25,
+            "y": 0.72,
+            "width": 1.4
+          },
+          "B": {
+            "x": 3,
+            "y": 0.72,
+            "width": 2.6
+          }
+        },
+        "walls": [
+          {
+            "id": "north-west",
+            "x": -1,
+            "y": -1,
+            "w": 2.7,
+            "h": 1.45
+          },
+          {
+            "id": "north-middle",
+            "x": 4.3,
+            "y": -1,
+            "w": 20,
+            "h": 1.45
+          },
+          {
+            "id": "north-east",
+            "x": 25.7,
+            "y": -1,
+            "w": 3.3,
+            "h": 1.45
+          },
+          {
+            "id": "west",
+            "x": -1,
+            "y": -1,
+            "w": 1.45,
+            "h": 20
+          },
+          {
+            "id": "east",
+            "x": 27.55,
+            "y": -1,
+            "w": 1.45,
+            "h": 20
+          },
+          {
+            "id": "south",
+            "x": -1,
+            "y": 17.55,
+            "w": 30,
+            "h": 1.45
+          },
+          {
+            "id": "exhibit",
+            "x": 3.8,
+            "y": 6.3,
+            "w": 6.8,
+            "h": 0.8
+          },
+          {
+            "id": "divider",
+            "x": 15,
+            "y": 3.4,
+            "w": 0.6,
+            "h": 11.8
+          }
+        ]
+      },
+      "agents": [
+        {
+          "id": 1,
+          "position": {
+            "x": 4.046491463780403,
+            "y": 10.032077232273295
+          },
+          "speed": 1.1295260839443655,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": 4.887352244807408,
+            "y": 9.96361620631069
+          },
+          "speed": 1.185918671344407,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": 5.8591024561412635,
+            "y": 9.984136692946777
+          },
+          "speed": 1.08145154889673,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": 6.684379427330569,
+            "y": 9.954605571161956
+          },
+          "speed": 1.208888603276573,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": 7.5423475774005055,
+            "y": 10.00960073322989
+          },
+          "speed": 1.2494806736428292,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": 8.505580154946074,
+            "y": 9.975739770382642
+          },
+          "speed": 1.0676445961231367,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": 9.418161900695413,
+            "y": 9.966083189649508
+          },
+          "speed": 1.1042290889285504,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": 10.330645681554453,
+            "y": 9.971417580265552
+          },
+          "speed": 1.2262194029940292,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 9,
+          "position": {
+            "x": 3.9692928675562142,
+            "y": 11.338697164403275
+          },
+          "speed": 1.2074952820595355,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": 4.854348237542436,
+            "y": 11.268423479236663
+          },
+          "speed": 1.1601916973711923,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": 5.7547282206453385,
+            "y": 11.359797838469968
+          },
+          "speed": 1.0599135281145573,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": 6.66581082043238,
+            "y": 11.264208363797517
+          },
+          "speed": 1.1509767301520333,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": 7.596558873020112,
+            "y": 11.326441959524528
+          },
+          "speed": 1.1068438206706197,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": 8.54502002752386,
+            "y": 11.289642310366036
+          },
+          "speed": 1.224148663938977,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 15,
+          "position": {
+            "x": 9.458242534231395,
+            "y": 11.28261966872029
+          },
+          "speed": 1.1460754621960223,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 16,
+          "position": {
+            "x": 10.283989157089964,
+            "y": 11.320033328328282
+          },
+          "speed": 1.2409669478563592,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": 4.000444851070642,
+            "y": 12.574056517900898
+          },
+          "speed": 1.1852764430176468,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": 4.945408492190763,
+            "y": 12.638791987113654
+          },
+          "speed": 1.0512439399259166,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 19,
+          "position": {
+            "x": 5.849658258277922,
+            "y": 12.600688216304405
+          },
+          "speed": 1.0528824565187096,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 20,
+          "position": {
+            "x": 6.756111868666485,
+            "y": 12.63652023760602
+          },
+          "speed": 1.1541870777821168,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 21,
+          "position": {
+            "x": 7.544134672023356,
+            "y": 12.593277833322063
+          },
+          "speed": 1.1120373669732362,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 22,
+          "position": {
+            "x": 8.483743316372857,
+            "y": 12.612013685703277
+          },
+          "speed": 1.065626242258586,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 23,
+          "position": {
+            "x": 9.4288165964745,
+            "y": 12.653574871374294
+          },
+          "speed": 1.0520211651735007,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 24,
+          "position": {
+            "x": 10.29012475022115,
+            "y": 12.62819001333788
+          },
+          "speed": 1.178845552126877,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 25,
+          "position": {
+            "x": 4.013412151262164,
+            "y": 13.869407810466365
+          },
+          "speed": 1.0940819157566877,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 26,
+          "position": {
+            "x": 4.841505375085399,
+            "y": 13.882792179770767
+          },
+          "speed": 1.1258286720188335,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 27,
+          "position": {
+            "x": 5.823032965157181,
+            "y": 13.954656413486228
+          },
+          "speed": 1.0774749188870192,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 28,
+          "position": {
+            "x": 6.651615656139329,
+            "y": 13.898363473471255
+          },
+          "speed": 1.1398478093137965,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 29,
+          "position": {
+            "x": 7.636399818770587,
+            "y": 13.856667268807069
+          },
+          "speed": 1.1855552776996046,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 30,
+          "position": {
+            "x": 8.505753393685445,
+            "y": 13.875952422395349
+          },
+          "speed": 1.2227289195219055,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 31,
+          "position": {
+            "x": 9.360019356589765,
+            "y": 13.907855734257028
+          },
+          "speed": 1.2597192816622556,
+          "radius": 0.23,
+          "knowsB": false
+        },
+        {
+          "id": 32,
+          "position": {
+            "x": 10.250496629038826,
+            "y": 13.889779007975012
+          },
+          "speed": 1.2545592334447428,
+          "radius": 0.23,
+          "knowsB": false
+        }
+      ]
+    },
+    "baselineSign": {
+      "position": {
+        "x": 7.2,
+        "y": 5.2
+      },
+      "normal": {
+        "x": 0,
+        "y": 1
+      },
+      "range": 6.5
+    },
+    "intervention": {
+      "x": 11.9,
+      "y": 8.8
+    },
+    "changedFields": [
+      "sign.position"
+    ],
+    "baseline": {
+      "metrics": {
+        "completed": 32,
+        "unfinished": 0,
+        "exits": {
+          "A": 32,
+          "B": 0
+        },
+        "informed": 0,
+        "rerouted": 0,
+        "meanArrival": 22.209374999999998,
+        "meanStopped": 0.06875,
+        "lastArrival": 28.2
+      },
+      "agents": [
+        {
+          "id": 1,
+          "exit": "A",
+          "arrivalTime": 23.5,
+          "distance": 23.931925239795554,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 2,
+          "exit": "A",
+          "arrivalTime": 20.7,
+          "distance": 23.297372298560937,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 3,
+          "exit": "A",
+          "arrivalTime": 22.4,
+          "distance": 22.239136669096393,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 4,
+          "exit": "A",
+          "arrivalTime": 18.7,
+          "distance": 21.421506050060923,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 5,
+          "exit": "A",
+          "arrivalTime": 16.7,
+          "distance": 20.56020448479276,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 6,
+          "exit": "A",
+          "arrivalTime": 19.5,
+          "distance": 20.482761576622412,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 7,
+          "exit": "A",
+          "arrivalTime": 17.9,
+          "distance": 19.500685710478177,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 8,
+          "exit": "A",
+          "arrivalTime": 14.9,
+          "distance": 18.27066910461096,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 9,
+          "exit": "A",
+          "arrivalTime": 23.4,
+          "distance": 24.687241041707253,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 10,
+          "exit": "A",
+          "arrivalTime": 24.1,
+          "distance": 24.224802641110585,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 11,
+          "exit": "A",
+          "arrivalTime": 27.6,
+          "distance": 23.561877729986655,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 12,
+          "exit": "A",
+          "arrivalTime": 19.8,
+          "distance": 22.236870426537244,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 13,
+          "exit": "A",
+          "arrivalTime": 20.2,
+          "distance": 21.456167463699977,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 14,
+          "exit": "A",
+          "arrivalTime": 18.6,
+          "distance": 21.183892629464104,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 15,
+          "exit": "A",
+          "arrivalTime": 17.5,
+          "distance": 20.056320588430367,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 16,
+          "exit": "A",
+          "arrivalTime": 15.8,
+          "distance": 19.60727777613042,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 17,
+          "exit": "A",
+          "arrivalTime": 22.8,
+          "distance": 25.27289400963026,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 18,
+          "exit": "A",
+          "arrivalTime": 25.2,
+          "distance": 24.52026489877189,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 19,
+          "exit": "A",
+          "arrivalTime": 24.6,
+          "distance": 23.642475561127544,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 20,
+          "exit": "A",
+          "arrivalTime": 28.2,
+          "distance": 23.251098681920723,
+          "stopped": 1.1,
+          "learnedAt": null
+        },
+        {
+          "id": 21,
+          "exit": "A",
+          "arrivalTime": 23,
+          "distance": 22.98025218850191,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 22,
+          "exit": "A",
+          "arrivalTime": 21.3,
+          "distance": 22.074447608386638,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 23,
+          "exit": "A",
+          "arrivalTime": 22,
+          "distance": 21.582214203534466,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 24,
+          "exit": "A",
+          "arrivalTime": 19.4,
+          "distance": 20.74875698407261,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 25,
+          "exit": "A",
+          "arrivalTime": 25.7,
+          "distance": 25.85862607890924,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 26,
+          "exit": "A",
+          "arrivalTime": 27.3,
+          "distance": 25.52949367538976,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 27,
+          "exit": "A",
+          "arrivalTime": 26.4,
+          "distance": 24.873508502506837,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 28,
+          "exit": "A",
+          "arrivalTime": 28,
+          "distance": 24.40984083645499,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 29,
+          "exit": "A",
+          "arrivalTime": 24.9,
+          "distance": 24.073194123674792,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 30,
+          "exit": "A",
+          "arrivalTime": 25.4,
+          "distance": 23.543555020725343,
+          "stopped": 1.1,
+          "learnedAt": null
+        },
+        {
+          "id": 31,
+          "exit": "A",
+          "arrivalTime": 23.9,
+          "distance": 22.88673504902199,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 32,
+          "exit": "A",
+          "arrivalTime": 21.3,
+          "distance": 22.65949897331995,
+          "stopped": 0,
+          "learnedAt": null
+        }
+      ],
+      "events": [
+        {
+          "agentId": 1,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.046491463780403,
+            "y": 10.032077232273295
+          },
+          "exit": "A",
+          "costA": 23.730819519421928
+        },
+        {
+          "agentId": 2,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.887352244807408,
+            "y": 9.96361620631069
+          },
+          "exit": "A",
+          "costA": 22.6211079679872
+        },
+        {
+          "agentId": 3,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.8591024561412635,
+            "y": 9.984136692946777
+          },
+          "exit": "A",
+          "costA": 22.24407985960469
+        },
+        {
+          "agentId": 4,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.684379427330569,
+            "y": 9.954605571161956
+          },
+          "exit": "A",
+          "costA": 21.20434444262392
+        },
+        {
+          "agentId": 5,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.5423475774005055,
+            "y": 10.00960073322989
+          },
+          "exit": "A",
+          "costA": 20.22441377484162
+        },
+        {
+          "agentId": 6,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.505580154946074,
+            "y": 9.975739770382642
+          },
+          "exit": "A",
+          "costA": 19.984101517853997
+        },
+        {
+          "agentId": 7,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.418161900695413,
+            "y": 9.966083189649508
+          },
+          "exit": "A",
+          "costA": 19.085967967062373
+        },
+        {
+          "agentId": 8,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.330645681554453,
+            "y": 9.971417580265552
+          },
+          "exit": "A",
+          "costA": 19.05896749054166
+        },
+        {
+          "agentId": 9,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 3.9692928675562142,
+            "y": 11.338697164403275
+          },
+          "exit": "A",
+          "costA": 24.318436818021688
+        },
+        {
+          "agentId": 10,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.854348237542436,
+            "y": 11.268423479236663
+          },
+          "exit": "A",
+          "costA": 23.21989700186142
+        },
+        {
+          "agentId": 11,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.7547282206453385,
+            "y": 11.359797838469968
+          },
+          "exit": "A",
+          "costA": 23.02995489858597
+        },
+        {
+          "agentId": 12,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.66581082043238,
+            "y": 11.264208363797517
+          },
+          "exit": "A",
+          "costA": 21.965723750032854
+        },
+        {
+          "agentId": 13,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.596558873020112,
+            "y": 11.326441959524528
+          },
+          "exit": "A",
+          "costA": 21.06030386069294
+        },
+        {
+          "agentId": 14,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.54502002752386,
+            "y": 11.289642310366036
+          },
+          "exit": "A",
+          "costA": 20.92846641725579
+        },
+        {
+          "agentId": 15,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.458242534231395,
+            "y": 11.28261966872029
+          },
+          "exit": "A",
+          "costA": 20.095254600422017
+        },
+        {
+          "agentId": 16,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.283989157089964,
+            "y": 11.320033328328282
+          },
+          "exit": "A",
+          "costA": 20.201563169699504
+        },
+        {
+          "agentId": 17,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.000444851070642,
+            "y": 12.574056517900898
+          },
+          "exit": "A",
+          "costA": 24.92804642644088
+        },
+        {
+          "agentId": 18,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.945408492190763,
+            "y": 12.638791987113654
+          },
+          "exit": "A",
+          "costA": 23.931297645428916
+        },
+        {
+          "agentId": 19,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.849658258277922,
+            "y": 12.600688216304405
+          },
+          "exit": "A",
+          "costA": 23.74418200482426
+        },
+        {
+          "agentId": 20,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.756111868666485,
+            "y": 12.63652023760602
+          },
+          "exit": "A",
+          "costA": 22.86309791516191
+        },
+        {
+          "agentId": 21,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.544134672023356,
+            "y": 12.593277833322063
+          },
+          "exit": "A",
+          "costA": 22.83285580969602
+        },
+        {
+          "agentId": 22,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.483743316372857,
+            "y": 12.612013685703277
+          },
+          "exit": "A",
+          "costA": 22.001418803521776
+        },
+        {
+          "agentId": 23,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.4288165964745,
+            "y": 12.653574871374294
+          },
+          "exit": "A",
+          "costA": 21.24360090497967
+        },
+        {
+          "agentId": 24,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.29012475022115,
+            "y": 12.62819001333788
+          },
+          "exit": "A",
+          "costA": 21.324262106774157
+        },
+        {
+          "agentId": 25,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.013412151262164,
+            "y": 13.869407810466365
+          },
+          "exit": "A",
+          "costA": 25.709739637604137
+        },
+        {
+          "agentId": 26,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.841505375085399,
+            "y": 13.882792179770767
+          },
+          "exit": "A",
+          "costA": 24.830259791112347
+        },
+        {
+          "agentId": 27,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.823032965157181,
+            "y": 13.954656413486228
+          },
+          "exit": "A",
+          "costA": 24.734133291976477
+        },
+        {
+          "agentId": 28,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.651615656139329,
+            "y": 13.898363473471255
+          },
+          "exit": "A",
+          "costA": 23.873927686017467
+        },
+        {
+          "agentId": 29,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.636399818770587,
+            "y": 13.856667268807069
+          },
+          "exit": "A",
+          "costA": 23.76776466439058
+        },
+        {
+          "agentId": 30,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.505753393685445,
+            "y": 13.875952422395349
+          },
+          "exit": "A",
+          "costA": 23.02239254342969
+        },
+        {
+          "agentId": 31,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.360019356589765,
+            "y": 13.907855734257028
+          },
+          "exit": "A",
+          "costA": 22.34233709408103
+        },
+        {
+          "agentId": 32,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.250496629038826,
+            "y": 13.889779007975012
+          },
+          "exit": "A",
+          "costA": 22.45114968718572
+        },
+        {
+          "agentId": 8,
+          "tick": 149,
+          "time": 14.9,
+          "type": "arrive",
+          "position": {
+            "x": 24.608864677309008,
+            "y": 0.8918549213085425
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 16,
+          "tick": 158,
+          "time": 15.8,
+          "type": "arrive",
+          "position": {
+            "x": 24.6368679969065,
+            "y": 0.8736902929359065
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 5,
+          "tick": 167,
+          "time": 16.7,
+          "type": "arrive",
+          "position": {
+            "x": 24.624398224210303,
+            "y": 0.7267088514651866
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 15,
+          "tick": 175,
+          "time": 17.5,
+          "type": "arrive",
+          "position": {
+            "x": 24.583398102408886,
+            "y": 0.7156265649308363
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 7,
+          "tick": 179,
+          "time": 17.9,
+          "type": "arrive",
+          "position": {
+            "x": 24.899477296455558,
+            "y": 0.8560629457769718
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 14,
+          "tick": 186,
+          "time": 18.6,
+          "type": "arrive",
+          "position": {
+            "x": 24.942319720102816,
+            "y": 0.903662303902901
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 4,
+          "tick": 187,
+          "time": 18.7,
+          "type": "arrive",
+          "position": {
+            "x": 24.634308038642637,
+            "y": 0.7071627745759915
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 24,
+          "tick": 194,
+          "time": 19.4,
+          "type": "arrive",
+          "position": {
+            "x": 24.577708310814543,
+            "y": 0.9018209558135242
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 6,
+          "tick": 195,
+          "time": 19.5,
+          "type": "arrive",
+          "position": {
+            "x": 25.136407002687573,
+            "y": 0.8633368542327375
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 12,
+          "tick": 198,
+          "time": 19.8,
+          "type": "arrive",
+          "position": {
+            "x": 24.603239437201857,
+            "y": 0.714463180963476
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 13,
+          "tick": 202,
+          "time": 20.2,
+          "type": "arrive",
+          "position": {
+            "x": 24.612475231455132,
+            "y": 0.7897933958339752
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 2,
+          "tick": 207,
+          "time": 20.7,
+          "type": "arrive",
+          "position": {
+            "x": 24.61306570774916,
+            "y": 0.7158324912791186
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 22,
+          "tick": 213,
+          "time": 21.3,
+          "type": "arrive",
+          "position": {
+            "x": 24.55045931074754,
+            "y": 0.8077687575613449
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 32,
+          "tick": 213,
+          "time": 21.3,
+          "type": "arrive",
+          "position": {
+            "x": 25.17003606372731,
+            "y": 0.858750386184771
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 23,
+          "tick": 220,
+          "time": 22,
+          "type": "arrive",
+          "position": {
+            "x": 24.597487367338548,
+            "y": 0.9267848676815603
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 3,
+          "tick": 224,
+          "time": 22.4,
+          "type": "arrive",
+          "position": {
+            "x": 24.607937958024543,
+            "y": 0.7177150375814996
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 17,
+          "tick": 228,
+          "time": 22.8,
+          "type": "arrive",
+          "position": {
+            "x": 24.589331481723573,
+            "y": 0.8924250625123271
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 21,
+          "tick": 230,
+          "time": 23,
+          "type": "arrive",
+          "position": {
+            "x": 25.29049282740492,
+            "y": 0.885616184777621
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 9,
+          "tick": 234,
+          "time": 23.4,
+          "type": "arrive",
+          "position": {
+            "x": 25.0014247030331,
+            "y": 0.9119651927505283
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 1,
+          "tick": 235,
+          "time": 23.5,
+          "type": "arrive",
+          "position": {
+            "x": 24.60592972672873,
+            "y": 0.7119548748592035
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 31,
+          "tick": 239,
+          "time": 23.9,
+          "type": "arrive",
+          "position": {
+            "x": 24.79462177500324,
+            "y": 0.8457809411941642
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 10,
+          "tick": 241,
+          "time": 24.1,
+          "type": "arrive",
+          "position": {
+            "x": 24.574317459276163,
+            "y": 0.7128927576848049
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 19,
+          "tick": 246,
+          "time": 24.6,
+          "type": "arrive",
+          "position": {
+            "x": 24.606352201940965,
+            "y": 0.7183011159670609
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 29,
+          "tick": 249,
+          "time": 24.9,
+          "type": "arrive",
+          "position": {
+            "x": 25.231090025932964,
+            "y": 0.8762022391480957
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 18,
+          "tick": 252,
+          "time": 25.2,
+          "type": "arrive",
+          "position": {
+            "x": 24.593968997434928,
+            "y": 0.7092269476855526
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 30,
+          "tick": 254,
+          "time": 25.4,
+          "type": "arrive",
+          "position": {
+            "x": 25.00241960737525,
+            "y": 0.851832955628383
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 25,
+          "tick": 257,
+          "time": 25.7,
+          "type": "arrive",
+          "position": {
+            "x": 24.63667062394914,
+            "y": 0.8580626239054372
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 27,
+          "tick": 264,
+          "time": 26.4,
+          "type": "arrive",
+          "position": {
+            "x": 24.646707267502762,
+            "y": 0.8138569642177571
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 26,
+          "tick": 273,
+          "time": 27.3,
+          "type": "arrive",
+          "position": {
+            "x": 24.64648464015,
+            "y": 0.72
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 11,
+          "tick": 276,
+          "time": 27.6,
+          "type": "arrive",
+          "position": {
+            "x": 25.187097985735985,
+            "y": 0.9119995533375588
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 28,
+          "tick": 280,
+          "time": 28,
+          "type": "arrive",
+          "position": {
+            "x": 24.824198867119435,
+            "y": 0.8772613750712985
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 20,
+          "tick": 282,
+          "time": 28.2,
+          "type": "arrive",
+          "position": {
+            "x": 24.622405816836036,
+            "y": 0.712494419549672
+          },
+          "exit": "A"
+        }
+      ],
+      "fingerprint": "990dbc97"
+    },
+    "changed": {
+      "metrics": {
+        "completed": 32,
+        "unfinished": 0,
+        "exits": {
+          "A": 11,
+          "B": 21
+        },
+        "informed": 21,
+        "rerouted": 21,
+        "meanArrival": 16.334374999999998,
+        "meanStopped": 0,
+        "lastArrival": 26.2
+      },
+      "agents": [
+        {
+          "id": 1,
+          "exit": "A",
+          "arrivalTime": 21.4,
+          "distance": 23.736990654090842,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 2,
+          "exit": "A",
+          "arrivalTime": 19.8,
+          "distance": 22.77556808316935,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 3,
+          "exit": "A",
+          "arrivalTime": 20.5,
+          "distance": 22.094055143960183,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 4,
+          "exit": "A",
+          "arrivalTime": 17.3,
+          "distance": 20.786839533340626,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 5,
+          "exit": "A",
+          "arrivalTime": 16.4,
+          "distance": 20.20138514956323,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 6,
+          "exit": "A",
+          "arrivalTime": 18.9,
+          "distance": 19.655337014626983,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 7,
+          "exit": "B",
+          "arrivalTime": 14.8,
+          "distance": 13.205996610947684,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 8,
+          "exit": "B",
+          "arrivalTime": 10.3,
+          "distance": 12.601087315823811,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 9,
+          "exit": "A",
+          "arrivalTime": 20.8,
+          "distance": 24.14990564119085,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 10,
+          "exit": "A",
+          "arrivalTime": 22.3,
+          "distance": 23.580896249069443,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 11,
+          "exit": "A",
+          "arrivalTime": 23.2,
+          "distance": 23.48427485370247,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 12,
+          "exit": "B",
+          "arrivalTime": 10.1,
+          "distance": 11.607034066560322,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 13,
+          "exit": "B",
+          "arrivalTime": 11.3,
+          "distance": 12.477631665007744,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 14,
+          "exit": "B",
+          "arrivalTime": 11.4,
+          "distance": 13.036928712835055,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 15,
+          "exit": "B",
+          "arrivalTime": 12.7,
+          "distance": 13.849501360393312,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 16,
+          "exit": "B",
+          "arrivalTime": 11.5,
+          "distance": 14.140818370823217,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 17,
+          "exit": "A",
+          "arrivalTime": 23,
+          "distance": 25.110081445329,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 18,
+          "exit": "A",
+          "arrivalTime": 26.2,
+          "distance": 24.22066037589325,
+          "stopped": 0,
+          "learnedAt": null
+        },
+        {
+          "id": 19,
+          "exit": "B",
+          "arrivalTime": 14.4,
+          "distance": 13.455837794309078,
+          "stopped": 0,
+          "learnedAt": 1.2
+        },
+        {
+          "id": 20,
+          "exit": "B",
+          "arrivalTime": 11.7,
+          "distance": 13.065397720493536,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 21,
+          "exit": "B",
+          "arrivalTime": 12.4,
+          "distance": 13.400050272027473,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 22,
+          "exit": "B",
+          "arrivalTime": 13.5,
+          "distance": 13.981016298432673,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 23,
+          "exit": "B",
+          "arrivalTime": 15.7,
+          "distance": 15.054422873632856,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 24,
+          "exit": "B",
+          "arrivalTime": 17.4,
+          "distance": 15.56015537125266,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 25,
+          "exit": "B",
+          "arrivalTime": 16.7,
+          "distance": 15.109271256599843,
+          "stopped": 0,
+          "learnedAt": 3.4
+        },
+        {
+          "id": 26,
+          "exit": "B",
+          "arrivalTime": 14.9,
+          "distance": 15.102991635132668,
+          "stopped": 0,
+          "learnedAt": 2.4
+        },
+        {
+          "id": 27,
+          "exit": "B",
+          "arrivalTime": 15.9,
+          "distance": 15.127747861173763,
+          "stopped": 0,
+          "learnedAt": 1.5
+        },
+        {
+          "id": 28,
+          "exit": "B",
+          "arrivalTime": 17.4,
+          "distance": 15.131479668640628,
+          "stopped": 0,
+          "learnedAt": 1.1
+        },
+        {
+          "id": 29,
+          "exit": "B",
+          "arrivalTime": 13.5,
+          "distance": 14.783874312914037,
+          "stopped": 0,
+          "learnedAt": 0.2
+        },
+        {
+          "id": 30,
+          "exit": "B",
+          "arrivalTime": 14,
+          "distance": 15.24742962643818,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 31,
+          "exit": "B",
+          "arrivalTime": 15.6,
+          "distance": 15.796879792044662,
+          "stopped": 0,
+          "learnedAt": 0
+        },
+        {
+          "id": 32,
+          "exit": "B",
+          "arrivalTime": 17.7,
+          "distance": 16.33424283362163,
+          "stopped": 0,
+          "learnedAt": 0
+        }
+      ],
+      "events": [
+        {
+          "agentId": 1,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.046491463780403,
+            "y": 10.032077232273295
+          },
+          "exit": "A",
+          "costA": 23.730819519421928
+        },
+        {
+          "agentId": 2,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.887352244807408,
+            "y": 9.96361620631069
+          },
+          "exit": "A",
+          "costA": 22.6211079679872
+        },
+        {
+          "agentId": 3,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.8591024561412635,
+            "y": 9.984136692946777
+          },
+          "exit": "A",
+          "costA": 22.24407985960469
+        },
+        {
+          "agentId": 4,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.684379427330569,
+            "y": 9.954605571161956
+          },
+          "exit": "A",
+          "costA": 21.20434444262392
+        },
+        {
+          "agentId": 5,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.5423475774005055,
+            "y": 10.00960073322989
+          },
+          "exit": "A",
+          "costA": 20.22441377484162
+        },
+        {
+          "agentId": 6,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.505580154946074,
+            "y": 9.975739770382642
+          },
+          "exit": "A",
+          "costA": 19.984101517853997
+        },
+        {
+          "agentId": 7,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.418161900695413,
+            "y": 9.966083189649508
+          },
+          "exit": "A",
+          "costA": 19.085967967062373
+        },
+        {
+          "agentId": 8,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.330645681554453,
+            "y": 9.971417580265552
+          },
+          "exit": "A",
+          "costA": 19.05896749054166
+        },
+        {
+          "agentId": 9,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 3.9692928675562142,
+            "y": 11.338697164403275
+          },
+          "exit": "A",
+          "costA": 24.318436818021688
+        },
+        {
+          "agentId": 10,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.854348237542436,
+            "y": 11.268423479236663
+          },
+          "exit": "A",
+          "costA": 23.21989700186142
+        },
+        {
+          "agentId": 11,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.7547282206453385,
+            "y": 11.359797838469968
+          },
+          "exit": "A",
+          "costA": 23.02995489858597
+        },
+        {
+          "agentId": 12,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.66581082043238,
+            "y": 11.264208363797517
+          },
+          "exit": "A",
+          "costA": 21.965723750032854
+        },
+        {
+          "agentId": 13,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.596558873020112,
+            "y": 11.326441959524528
+          },
+          "exit": "A",
+          "costA": 21.06030386069294
+        },
+        {
+          "agentId": 14,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.54502002752386,
+            "y": 11.289642310366036
+          },
+          "exit": "A",
+          "costA": 20.92846641725579
+        },
+        {
+          "agentId": 15,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.458242534231395,
+            "y": 11.28261966872029
+          },
+          "exit": "A",
+          "costA": 20.095254600422017
+        },
+        {
+          "agentId": 16,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.283989157089964,
+            "y": 11.320033328328282
+          },
+          "exit": "A",
+          "costA": 20.201563169699504
+        },
+        {
+          "agentId": 17,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.000444851070642,
+            "y": 12.574056517900898
+          },
+          "exit": "A",
+          "costA": 24.92804642644088
+        },
+        {
+          "agentId": 18,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.945408492190763,
+            "y": 12.638791987113654
+          },
+          "exit": "A",
+          "costA": 23.931297645428916
+        },
+        {
+          "agentId": 19,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.849658258277922,
+            "y": 12.600688216304405
+          },
+          "exit": "A",
+          "costA": 23.74418200482426
+        },
+        {
+          "agentId": 20,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.756111868666485,
+            "y": 12.63652023760602
+          },
+          "exit": "A",
+          "costA": 22.86309791516191
+        },
+        {
+          "agentId": 21,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.544134672023356,
+            "y": 12.593277833322063
+          },
+          "exit": "A",
+          "costA": 22.83285580969602
+        },
+        {
+          "agentId": 22,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.483743316372857,
+            "y": 12.612013685703277
+          },
+          "exit": "A",
+          "costA": 22.001418803521776
+        },
+        {
+          "agentId": 23,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.4288165964745,
+            "y": 12.653574871374294
+          },
+          "exit": "A",
+          "costA": 21.24360090497967
+        },
+        {
+          "agentId": 24,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.29012475022115,
+            "y": 12.62819001333788
+          },
+          "exit": "A",
+          "costA": 21.324262106774157
+        },
+        {
+          "agentId": 25,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.013412151262164,
+            "y": 13.869407810466365
+          },
+          "exit": "A",
+          "costA": 25.709739637604137
+        },
+        {
+          "agentId": 26,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 4.841505375085399,
+            "y": 13.882792179770767
+          },
+          "exit": "A",
+          "costA": 24.830259791112347
+        },
+        {
+          "agentId": 27,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 5.823032965157181,
+            "y": 13.954656413486228
+          },
+          "exit": "A",
+          "costA": 24.734133291976477
+        },
+        {
+          "agentId": 28,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.651615656139329,
+            "y": 13.898363473471255
+          },
+          "exit": "A",
+          "costA": 23.873927686017467
+        },
+        {
+          "agentId": 29,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.636399818770587,
+            "y": 13.856667268807069
+          },
+          "exit": "A",
+          "costA": 23.76776466439058
+        },
+        {
+          "agentId": 30,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.505753393685445,
+            "y": 13.875952422395349
+          },
+          "exit": "A",
+          "costA": 23.02239254342969
+        },
+        {
+          "agentId": 31,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.360019356589765,
+            "y": 13.907855734257028
+          },
+          "exit": "A",
+          "costA": 22.34233709408103
+        },
+        {
+          "agentId": 32,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.250496629038826,
+            "y": 13.889779007975012
+          },
+          "exit": "A",
+          "costA": 22.45114968718572
+        },
+        {
+          "agentId": 7,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 9.418161900695413,
+            "y": 9.966083189649508
+          },
+          "exit": "A",
+          "distanceToSign": 2.742128800100932,
+          "costA": 19.085967967062373,
+          "costB": 13.170695117043408
+        },
+        {
+          "agentId": 7,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.418161900695413,
+            "y": 9.966083189649508
+          },
+          "exit": "B",
+          "costA": 19.085967967062373,
+          "costB": 13.170695117043408
+        },
+        {
+          "agentId": 8,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 10.330645681554453,
+            "y": 9.971417580265552
+          },
+          "exit": "A",
+          "distanceToSign": 1.9583391238952688,
+          "costA": 19.05896749054166,
+          "costB": 12.789456673079268
+        },
+        {
+          "agentId": 8,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.330645681554453,
+            "y": 9.971417580265552
+          },
+          "exit": "B",
+          "costA": 19.05896749054166,
+          "costB": 12.789456673079268
+        },
+        {
+          "agentId": 12,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 6.66581082043238,
+            "y": 11.264208363797517
+          },
+          "exit": "A",
+          "distanceToSign": 5.785244958315282,
+          "costA": 21.965723750032854,
+          "costB": 11.70131939944268
+        },
+        {
+          "agentId": 12,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.66581082043238,
+            "y": 11.264208363797517
+          },
+          "exit": "B",
+          "costA": 21.965723750032854,
+          "costB": 11.70131939944268
+        },
+        {
+          "agentId": 13,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 7.596558873020112,
+            "y": 11.326441959524528
+          },
+          "exit": "A",
+          "distanceToSign": 4.990241928827507,
+          "costA": 21.06030386069294,
+          "costB": 12.499991420305593
+        },
+        {
+          "agentId": 13,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.596558873020112,
+            "y": 11.326441959524528
+          },
+          "exit": "B",
+          "costA": 21.06030386069294,
+          "costB": 12.499991420305593
+        },
+        {
+          "agentId": 14,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 8.54502002752386,
+            "y": 11.289642310366036
+          },
+          "exit": "A",
+          "distanceToSign": 4.177823530174622,
+          "costA": 20.92846641725579,
+          "costB": 13.04162434174719
+        },
+        {
+          "agentId": 14,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.54502002752386,
+            "y": 11.289642310366036
+          },
+          "exit": "B",
+          "costA": 20.92846641725579,
+          "costB": 13.04162434174719
+        },
+        {
+          "agentId": 15,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 9.458242534231395,
+            "y": 11.28261966872029
+          },
+          "exit": "A",
+          "distanceToSign": 3.482180342996836,
+          "costA": 20.095254600422017,
+          "costB": 13.849410375879017
+        },
+        {
+          "agentId": 15,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.458242534231395,
+            "y": 11.28261966872029
+          },
+          "exit": "B",
+          "costA": 20.095254600422017,
+          "costB": 13.849410375879017
+        },
+        {
+          "agentId": 16,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 10.283989157089964,
+            "y": 11.320033328328282
+          },
+          "exit": "A",
+          "distanceToSign": 2.9936698248618074,
+          "costA": 20.201563169699504,
+          "costB": 14.21464998063956
+        },
+        {
+          "agentId": 16,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.283989157089964,
+            "y": 11.320033328328282
+          },
+          "exit": "B",
+          "costA": 20.201563169699504,
+          "costB": 14.21464998063956
+        },
+        {
+          "agentId": 20,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 6.756111868666485,
+            "y": 12.63652023760602
+          },
+          "exit": "A",
+          "distanceToSign": 6.417045476014202,
+          "costA": 22.86309791516191,
+          "costB": 12.886328585773509
+        },
+        {
+          "agentId": 20,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 6.756111868666485,
+            "y": 12.63652023760602
+          },
+          "exit": "B",
+          "costA": 22.86309791516191,
+          "costB": 12.886328585773509
+        },
+        {
+          "agentId": 21,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 7.544134672023356,
+            "y": 12.593277833322063
+          },
+          "exit": "A",
+          "distanceToSign": 5.776029732977627,
+          "costA": 22.83285580969602,
+          "costB": 13.273649277887117
+        },
+        {
+          "agentId": 21,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 7.544134672023356,
+            "y": 12.593277833322063
+          },
+          "exit": "B",
+          "costA": 22.83285580969602,
+          "costB": 13.273649277887117
+        },
+        {
+          "agentId": 22,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 8.483743316372857,
+            "y": 12.612013685703277
+          },
+          "exit": "A",
+          "distanceToSign": 5.118814127160333,
+          "costA": 22.001418803521776,
+          "costB": 13.889039716878218
+        },
+        {
+          "agentId": 22,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.483743316372857,
+            "y": 12.612013685703277
+          },
+          "exit": "B",
+          "costA": 22.001418803521776,
+          "costB": 13.889039716878218
+        },
+        {
+          "agentId": 23,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 9.4288165964745,
+            "y": 12.653574871374294
+          },
+          "exit": "A",
+          "distanceToSign": 4.577858309640796,
+          "costA": 21.24360090497967,
+          "costB": 14.67856252959902
+        },
+        {
+          "agentId": 23,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.4288165964745,
+            "y": 12.653574871374294
+          },
+          "exit": "B",
+          "costA": 21.24360090497967,
+          "costB": 14.67856252959902
+        },
+        {
+          "agentId": 24,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 10.29012475022115,
+            "y": 12.62819001333788
+          },
+          "exit": "A",
+          "distanceToSign": 4.15291910564971,
+          "costA": 21.324262106774157,
+          "costB": 15.239863272442559
+        },
+        {
+          "agentId": 24,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.29012475022115,
+            "y": 12.62819001333788
+          },
+          "exit": "B",
+          "costA": 21.324262106774157,
+          "costB": 15.239863272442559
+        },
+        {
+          "agentId": 30,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 8.505753393685445,
+            "y": 13.875952422395349
+          },
+          "exit": "A",
+          "distanceToSign": 6.106242954460548,
+          "costA": 23.02239254342969,
+          "costB": 14.870550565286178
+        },
+        {
+          "agentId": 30,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 8.505753393685445,
+            "y": 13.875952422395349
+          },
+          "exit": "B",
+          "costA": 23.02239254342969,
+          "costB": 14.870550565286178
+        },
+        {
+          "agentId": 31,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 9.360019356589765,
+            "y": 13.907855734257028
+          },
+          "exit": "A",
+          "distanceToSign": 5.70453257251469,
+          "costA": 22.34233709408103,
+          "costB": 15.535007152288106
+        },
+        {
+          "agentId": 31,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 9.360019356589765,
+            "y": 13.907855734257028
+          },
+          "exit": "B",
+          "costA": 22.34233709408103,
+          "costB": 15.535007152288106
+        },
+        {
+          "agentId": 32,
+          "tick": 0,
+          "time": 0,
+          "type": "learn",
+          "position": {
+            "x": 10.250496629038826,
+            "y": 13.889779007975012
+          },
+          "exit": "A",
+          "distanceToSign": 5.35039360429075,
+          "costA": 22.45114968718572,
+          "costB": 16.034021145625974
+        },
+        {
+          "agentId": 32,
+          "tick": 0,
+          "time": 0,
+          "type": "choose",
+          "position": {
+            "x": 10.250496629038826,
+            "y": 13.889779007975012
+          },
+          "exit": "B",
+          "costA": 22.45114968718572,
+          "costB": 16.034021145625974
+        },
+        {
+          "agentId": 29,
+          "tick": 2,
+          "time": 0.2,
+          "type": "learn",
+          "position": {
+            "x": 7.574438225927086,
+            "y": 13.627796711953613
+          },
+          "exit": "A",
+          "distanceToSign": 6.482137437085928,
+          "costA": 23.611897646019866,
+          "costB": 14.126317984567736
+        },
+        {
+          "agentId": 29,
+          "tick": 2,
+          "time": 0.2,
+          "type": "choose",
+          "position": {
+            "x": 7.574438225927086,
+            "y": 13.627796711953613
+          },
+          "exit": "B",
+          "costA": 23.611897646019866,
+          "costB": 14.126317984567736
+        },
+        {
+          "agentId": 28,
+          "tick": 11,
+          "time": 1.1,
+          "type": "learn",
+          "position": {
+            "x": 7.224929076451052,
+            "y": 13.163566523861366
+          },
+          "exit": "A",
+          "distanceToSign": 6.395076305125403,
+          "costA": 22.942153892679087,
+          "costB": 13.596458041603578
+        },
+        {
+          "agentId": 28,
+          "tick": 11,
+          "time": 1.1,
+          "type": "choose",
+          "position": {
+            "x": 7.224929076451052,
+            "y": 13.163566523861366
+          },
+          "exit": "B",
+          "costA": 22.942153892679087,
+          "costB": 13.596458041603578
+        },
+        {
+          "agentId": 19,
+          "tick": 12,
+          "time": 1.2,
+          "type": "learn",
+          "position": {
+            "x": 6.347267906419987,
+            "y": 12.096013836198352
+          },
+          "exit": "A",
+          "distanceToSign": 6.457285878098047,
+          "costA": 23.03547851828902,
+          "costB": 12.165177904240135
+        },
+        {
+          "agentId": 19,
+          "tick": 12,
+          "time": 1.2,
+          "type": "choose",
+          "position": {
+            "x": 6.347267906419987,
+            "y": 12.096013836198352
+          },
+          "exit": "B",
+          "costA": 23.03547851828902,
+          "costB": 12.165177904240135
+        },
+        {
+          "agentId": 27,
+          "tick": 15,
+          "time": 1.5,
+          "type": "learn",
+          "position": {
+            "x": 6.746081800193732,
+            "y": 12.64266513142979
+          },
+          "exit": "A",
+          "distanceToSign": 6.428759454404918,
+          "costA": 23.134846637864253,
+          "costB": 12.840813344209518
+        },
+        {
+          "agentId": 27,
+          "tick": 15,
+          "time": 1.5,
+          "type": "choose",
+          "position": {
+            "x": 6.746081800193732,
+            "y": 12.64266513142979
+          },
+          "exit": "B",
+          "costA": 23.134846637864253,
+          "costB": 12.840813344209518
+        },
+        {
+          "agentId": 26,
+          "tick": 24,
+          "time": 2.4,
+          "type": "learn",
+          "position": {
+            "x": 6.256301720812429,
+            "y": 11.98216885783151
+          },
+          "exit": "A",
+          "distanceToSign": 6.479006783933588,
+          "costA": 22.48040695648355,
+          "costB": 12.16215444560697
+        },
+        {
+          "agentId": 26,
+          "tick": 24,
+          "time": 2.4,
+          "type": "choose",
+          "position": {
+            "x": 6.256301720812429,
+            "y": 11.98216885783151
+          },
+          "exit": "B",
+          "costA": 22.48040695648355,
+          "costB": 12.16215444560697
+        },
+        {
+          "agentId": 25,
+          "tick": 34,
+          "time": 3.4,
+          "type": "learn",
+          "position": {
+            "x": 6.171335631943749,
+            "y": 11.849228578149987
+          },
+          "exit": "A",
+          "distanceToSign": 6.4896371519248985,
+          "costA": 22.75379216502003,
+          "costB": 11.890787385554056
+        },
+        {
+          "agentId": 25,
+          "tick": 34,
+          "time": 3.4,
+          "type": "choose",
+          "position": {
+            "x": 6.171335631943749,
+            "y": 11.849228578149987
+          },
+          "exit": "B",
+          "costA": 22.75379216502003,
+          "costB": 11.890787385554056
+        },
+        {
+          "agentId": 12,
+          "tick": 101,
+          "time": 10.1,
+          "type": "arrive",
+          "position": {
+            "x": 2.84571336807186,
+            "y": 0.8631502713613339
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 8,
+          "tick": 103,
+          "time": 10.3,
+          "type": "arrive",
+          "position": {
+            "x": 4.044644708285927,
+            "y": 0.8313710192875474
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 13,
+          "tick": 113,
+          "time": 11.3,
+          "type": "arrive",
+          "position": {
+            "x": 2.091796162470318,
+            "y": 0.8786596858516007
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 14,
+          "tick": 114,
+          "time": 11.4,
+          "type": "arrive",
+          "position": {
+            "x": 3.312152006373826,
+            "y": 0.8637399092754441
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 16,
+          "tick": 115,
+          "time": 11.5,
+          "type": "arrive",
+          "position": {
+            "x": 4.031752098610259,
+            "y": 0.8713917128637092
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 20,
+          "tick": 117,
+          "time": 11.7,
+          "type": "arrive",
+          "position": {
+            "x": 2.6986206106233124,
+            "y": 0.8932115362316745
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 21,
+          "tick": 124,
+          "time": 12.4,
+          "type": "arrive",
+          "position": {
+            "x": 3.9434101414315537,
+            "y": 0.9204274297744526
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 15,
+          "tick": 127,
+          "time": 12.7,
+          "type": "arrive",
+          "position": {
+            "x": 2.5572493389964617,
+            "y": 0.8898068504389952
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 22,
+          "tick": 135,
+          "time": 13.5,
+          "type": "arrive",
+          "position": {
+            "x": 3.1609119166730903,
+            "y": 0.9339585764795009
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 29,
+          "tick": 135,
+          "time": 13.5,
+          "type": "arrive",
+          "position": {
+            "x": 3.8560873585989635,
+            "y": 0.8994762279190534
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 30,
+          "tick": 140,
+          "time": 14,
+          "type": "arrive",
+          "position": {
+            "x": 3.2585602921880104,
+            "y": 0.9023883772495096
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 19,
+          "tick": 144,
+          "time": 14.4,
+          "type": "arrive",
+          "position": {
+            "x": 3.2137560666214284,
+            "y": 0.9201442529877759
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 7,
+          "tick": 148,
+          "time": 14.8,
+          "type": "arrive",
+          "position": {
+            "x": 2.6610324623279547,
+            "y": 0.8867987391721504
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 26,
+          "tick": 149,
+          "time": 14.9,
+          "type": "arrive",
+          "position": {
+            "x": 2.0425165176574795,
+            "y": 0.9259993772125277
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 31,
+          "tick": 156,
+          "time": 15.6,
+          "type": "arrive",
+          "position": {
+            "x": 2.2006842433151093,
+            "y": 0.8998960185235153
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 23,
+          "tick": 157,
+          "time": 15.7,
+          "type": "arrive",
+          "position": {
+            "x": 2.6020372433164565,
+            "y": 0.8994620410628393
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 27,
+          "tick": 159,
+          "time": 15.9,
+          "type": "arrive",
+          "position": {
+            "x": 3.3753760116834557,
+            "y": 0.8941477399914425
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 5,
+          "tick": 164,
+          "time": 16.4,
+          "type": "arrive",
+          "position": {
+            "x": 24.551094397660034,
+            "y": 0.7470947446800338
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 25,
+          "tick": 167,
+          "time": 16.7,
+          "type": "arrive",
+          "position": {
+            "x": 2.905184921980659,
+            "y": 0.900777372030936
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 4,
+          "tick": 173,
+          "time": 17.3,
+          "type": "arrive",
+          "position": {
+            "x": 24.566067437968336,
+            "y": 0.8151690521252293
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 24,
+          "tick": 174,
+          "time": 17.4,
+          "type": "arrive",
+          "position": {
+            "x": 3.9094821718838118,
+            "y": 0.8842500196481314
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 28,
+          "tick": 174,
+          "time": 17.4,
+          "type": "arrive",
+          "position": {
+            "x": 2.617837873439497,
+            "y": 0.8891823005168935
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 32,
+          "tick": 177,
+          "time": 17.7,
+          "type": "arrive",
+          "position": {
+            "x": 3.515570442274313,
+            "y": 0.8501372289003306
+          },
+          "exit": "B"
+        },
+        {
+          "agentId": 6,
+          "tick": 189,
+          "time": 18.9,
+          "type": "arrive",
+          "position": {
+            "x": 24.572302938721453,
+            "y": 0.8598913770881902
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 2,
+          "tick": 198,
+          "time": 19.8,
+          "type": "arrive",
+          "position": {
+            "x": 24.56891225235141,
+            "y": 0.7208609520789129
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 3,
+          "tick": 205,
+          "time": 20.5,
+          "type": "arrive",
+          "position": {
+            "x": 24.953750716640748,
+            "y": 0.9090551100284046
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 9,
+          "tick": 208,
+          "time": 20.8,
+          "type": "arrive",
+          "position": {
+            "x": 24.607798819844273,
+            "y": 0.814222194189203
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 1,
+          "tick": 214,
+          "time": 21.4,
+          "type": "arrive",
+          "position": {
+            "x": 24.858237940471007,
+            "y": 0.9140278689828584
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 10,
+          "tick": 223,
+          "time": 22.3,
+          "type": "arrive",
+          "position": {
+            "x": 24.594661147393648,
+            "y": 0.720370655387135
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 17,
+          "tick": 230,
+          "time": 23,
+          "type": "arrive",
+          "position": {
+            "x": 24.58026848717929,
+            "y": 0.7171069558389457
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 11,
+          "tick": 232,
+          "time": 23.2,
+          "type": "arrive",
+          "position": {
+            "x": 25.123751643858707,
+            "y": 0.8695568508676422
+          },
+          "exit": "A"
+        },
+        {
+          "agentId": 18,
+          "tick": 262,
+          "time": 26.2,
+          "type": "arrive",
+          "position": {
+            "x": 24.59547251675376,
+            "y": 0.7433737087115568
+          },
+          "exit": "A"
+        }
+      ],
+      "fingerprint": "b88a8af0"
+    }
+  }
+}

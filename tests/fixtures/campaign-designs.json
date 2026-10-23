@@ -1,0 +1,6 @@
+[
+  {"level":"sight","design":{"signs":[{"id":1,"position":{"x":6.3,"y":8.8},"normal":{"x":0,"y":1},"range":6.5,"target":"B","from":0,"until":100}],"barrier":null}},
+  {"level":"balance","design":{"signs":[{"id":1,"position":{"x":7,"y":12.2},"normal":{"x":0,"y":-1},"range":6.5,"target":"B","from":0,"until":100}],"barrier":null}},
+  {"level":"care","design":{"signs":[{"id":1,"position":{"x":6.3,"y":11.7},"normal":{"x":0,"y":1},"range":6.5,"target":"B","from":0,"until":100}],"barrier":null}},
+  {"level":"together","design":{"signs":[{"id":1,"position":{"x":8,"y":8.5},"normal":{"x":0,"y":1},"range":6.5,"target":"B","from":0,"until":100},{"id":2,"position":{"x":20,"y":8.5},"normal":{"x":0,"y":1},"range":6.5,"target":"A","from":0,"until":100}],"barrier":null}}
+]
